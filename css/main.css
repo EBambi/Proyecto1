@@ -4,13 +4,30 @@
 }
 
 body{
-    background-color: salmon;
+    background-color: rgb(37, 1, 63) !important;
+    background-image: url(../imgs/nissanR32.jpg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 50% 0%;
 }
 
 header{
     background-image: url(../imgs/banner.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+}
+
+#cuerpo1{
+    color: white !important;
+    text-align: center;
+}
+
+#cuerpo1 h1{
+    color: salmon;
+}
+
+#cuerpo1 h2{
+    color: salmon;
 }
 
 #mainContainer{
