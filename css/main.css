@@ -68,14 +68,33 @@ header{
     margin-right: auto;
 }
 
+.imgs:hover{
+    opacity: 0.3;
+    transition: .5s ease;
+    opacity: 0;
+}
+
 .imgs{
+    position: relative;
     margin-left: 5%;
     border-radius: 10px;
-    width: 300px;
-    height: 300px;
+    width: 290px;
+    height: 270px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 20px;
+    border: 5px solid #0000009d;
+
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.text{
+    position: absolute;
+    color: black
+    margin-left: 100px;
+    margin-bottom: 100px;
 }
 
 .tittle{
