@@ -63,10 +63,19 @@ header{
     color: crimson;
 }
 
+#imgTable{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .imgs{
     margin-left: 5%;
     border-radius: 10px;
-    width: 50%;
+    width: 300px;
+    height: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
 }
 
 .tittle{
