@@ -69,17 +69,18 @@ header{
 }
 
 .imgs:hover{
-    opacity: 0.3;
+    /* opacity: 0.3;
     transition: .5s ease;
-    opacity: 0;
+    opacity: 0; */
+    transform:scale(1.15);
 }
 
 .imgs{
     position: relative;
     margin-left: 5%;
     border-radius: 10px;
-    width: 290px;
-    height: 270px;
+    width: 280px;
+    height: 260px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 20px;
@@ -88,13 +89,6 @@ header{
     opacity: 1;
     transition: .5s ease;
     backface-visibility: hidden;
-}
-
-.text{
-    position: absolute;
-    color: black
-    margin-left: 100px;
-    margin-bottom: 100px;
 }
 
 .tittle{
