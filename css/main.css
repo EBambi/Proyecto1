@@ -48,10 +48,6 @@ header{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-#mainContainer{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 #menu ul li{
     font-family: cursive;
     font-size: 20px;
@@ -71,17 +67,19 @@ header{
 #cuerpo2{
     margin-left: 10px;
     margin-right: 10px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #cuerpo2 h1{
     color: salmon;
     margin-left: auto;
     margin-right: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #cuerpo2 p{
     color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
 }
 
 #imgTable{
@@ -101,6 +99,10 @@ header{
     width: 200px;
     height: 200px;
     margin-left: 5%;
+}
+
+.negritas{
+    color: #ff5c4a;
 }
 
 .imgs:hover{
