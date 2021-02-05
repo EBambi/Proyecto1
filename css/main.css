@@ -68,14 +68,20 @@ header{
     color: crimson;
 }
 
-#mainContainerAbout h1{
-    color: azure;
-    font-family: 'Times New Roman', Times, serif;
+#cuerpo2{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-#mainContainerAbout p{
-    color: burlywood;
-    font-family: 'Times New Roman', Times, serif;
+#cuerpo2 h1{
+    color: salmon;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cuerpo2 p{
+    color: whitesmoke;
 }
 
 #imgTable{
@@ -84,7 +90,7 @@ header{
 }
 
 #imgEncabezado{
-    width: 300px;
+    width: 350px;
     height: 200px;
     display: block;
     margin-left: auto;
@@ -94,6 +100,7 @@ header{
 #imgMe{
     width: 200px;
     height: 200px;
+    margin-left: 5%;
 }
 
 .imgs:hover{
