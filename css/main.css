@@ -91,6 +91,11 @@ header{
     margin-right: auto;
 }
 
+#imgMe{
+    width: 200px;
+    height: 200px;
+}
+
 .imgs:hover{
     /* opacity: 0.3;
     transition: .5s ease;
