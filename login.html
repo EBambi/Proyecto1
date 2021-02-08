@@ -6,19 +6,61 @@
     <title>Proyecto 1</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
-    <div id="mainContainer">
+<body id="bodyLogin">
+    <div id="mainContainerLogin">
         <header>
             <div id="menu">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="register.html">Register</a></li>
+                    <li><a href="index.html">Principal</a></li>
                     <li><a href="login.html">Login</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html">Acerca De</a></li>
+                    <li><a href="gallery.html">Galería</a></li>
                 </ul>
             </div>
         </header>
+        <div id="cuerpo3">
+            <div class="backGroundBox">
+                <div class="backGroundBoxLogin">
+                    <h2>
+                        Iniciar Sesión
+                    </h2>
+                    <p>
+                        Inicia sesión en la JDM page
+                    </p>
+                    <button id="btnInicioSesion">Iniciar Sesión</button>
+                </div>
+                <div class="backGroundBoxRegister">
+                    <h2>
+                        Crea una cuenta aquí
+                    </h2>
+                    <p>
+                        Registrate para iniciar sesión.
+                    </p>
+                    <button id="btnRegistrarse">Regístrarse</button>
+                </div>
+            </div>
+            <div class="loginRegisterContainer">
+                <form action="" class="loginForm">
+                    <h3>
+                        Iniciar Sesión
+                    </h3>
+                    <input type="text" placeholder="Correo">
+                    <input type="password" placeholder="Contraseña">
+                    <button>Iniciar</button>
+                </form>
+                <form action="" class="registerForm">
+                    <h3>
+                        Regístrarse
+                    </h3>
+                    <input type="text" placeholder="Nombre">
+                    <input type="text" placeholder="Correo">
+                    <input type="text" placeholder="Usuario">
+                    <input type="password" placeholder="Contraseña">
+                    <button>Registrarse</button>
+                </form>
+            </div>
+        </div>
     </div>
+    <script src="js/main.js"></script>
 </body>
 </html>
