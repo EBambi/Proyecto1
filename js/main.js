@@ -8,6 +8,25 @@ var registerForm = document.querySelector(".registerForm");
 var backGroundBoxLogin = document.querySelector(".backGroundBoxLogin");
 var backGroundBoxRegister = document.querySelector(".backGroundBoxRegister");
 
+const nombre = document.getElementById('nombre');
+const correoRegis = document.getElementById('correo');
+const usuario = document.getElementById('usuario');
+const contraRegis = document.getElementById('contra');
+
+registerForm.addEventListener('submit',function(event){
+    event.preventDefault();
+    let usuarios = Array(
+        {
+            nombre: nombre.value,
+            correoRegis: correo.value,
+            usuario: usuario.value,
+            contraRegis: contra.value
+        }
+    );
+    localStorage.setItem('usuarios',JSON.stringify(usuarios));
+    location.href='index.html'
+    console.log(usuarios);
+});
 
 function login(){
     registerForm.style.display = "none";
