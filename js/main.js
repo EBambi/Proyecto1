@@ -13,20 +13,26 @@ const correoRegis = document.getElementById('correo');
 const usuario = document.getElementById('usuario');
 const contraRegis = document.getElementById('contra');
 
-registerForm.addEventListener('submit',function(event){
-    event.preventDefault();
-    let usuarios = Array(
-        {
-            nombre: nombre.value,
-            correoRegis: correo.value,
-            usuario: usuario.value,
-            contraRegis: contra.value
-        }
-    );
-    localStorage.setItem('usuarios',JSON.stringify(usuarios));
-    location.href='index.html'
-    console.log(usuarios);
-});
+function registrar(usuario,correoRegis,contraRegis,nombre){
+    if(localStorage.getItem(correoRegis)==null){
+        localStorage.setItem(nombre,correoRegis);
+        localStorage.setItem(correoRegis,usuario);
+        localStorage.setItem(usuario,contraRegis);
+        alert("¡Te has registrado en la página!")
+    }
+    else{
+        alert("Usuario existente")
+    }
+}
+
+function loginRegistro(usuario,contraRegis){
+    if(localStorage.getItem(usuario)==contraRegis){
+        alert("Se ha iniciado sesión")
+    }
+    else{
+        alert("Contraseña o Usuario incorrecto")
+    }
+}
 
 function login(){
     registerForm.style.display = "none";

@@ -23,8 +23,12 @@ header{
 }
 
 #bodyAbout{
-    background-image: url(../imgs/supra1.jpg);
-    background-size: 50%;
+    background-image: url(../imgs/backGroundCube.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    /* background-size: 50%; */
 }
 
 #bodyLogin{
@@ -89,9 +93,9 @@ header{
 }
 
 #cuerpo2 p{
-    color: whitesmoke;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: larger;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
 }
 
 #cuerpo3{
@@ -204,7 +208,9 @@ header{
 #imgMe{
     width: 200px;
     height: 200px;
-    margin-left: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .negritas{

@@ -40,23 +40,23 @@
                 </div>
             </div>
             <div class="loginRegisterContainer">
-                <form action="" class="loginForm">
+                <form class="loginForm">
                     <h3>
                         Iniciar Sesión
                     </h3>
-                    <input id="correoLog" type="text" placeholder="Correo" required>
-                    <input id="contraLog" type="password" placeholder="Contraseña" required>
-                    <button class="btnIniciarSesion" type="submit" >Iniciar</button>
+                    <input name="usuario" type="text" placeholder="Usuario" required>
+                    <input name="contra" type="password" placeholder="Contraseña" required>
+                    <button class="btnIniciarSesion" onclick="loginRegistro(this.form.usuario.value,this.form.contra.value);" " >Iniciar</button>
                 </form>
-                <form action="" class="registerForm">
+                <form class="registerForm">
                     <h3>
                         Regístrarse
                     </h3>
-                    <input id="nombre" type="text" placeholder="Nombre" required>
-                    <input id="correo" type="text" placeholder="Correo" required>
-                    <input id="usuario" type="text" placeholder="Usuario" required>
-                    <input id="contra" type="password" placeholder="Contraseña" required>
-                    <button class="btnRegistro" type="submit" >Registrarse</button>
+                    <input name="nombre" type="text" placeholder="Nombre" required>
+                    <input name="correo" type="text" placeholder="Correo" required>
+                    <input name="usuario" type="text" placeholder="Usuario" required>
+                    <input name="contra" type="password" placeholder="Contraseña" required>
+                    <button class="btnRegistro" onclick="registrar(this.form.usuario.value,this.form.correo.value,this.form.contra.value,this.form.nombre.value);" " >Registrarse</button>
                 </form>
             </div>
         </div>
